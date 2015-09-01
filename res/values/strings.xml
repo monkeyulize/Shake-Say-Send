@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shake Say Send</string>
+    <string name="first_time_setup_name">First Time Setup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="set_email">Set email</string>
+    <string name="email_not_set">email_not_set</string>
+    <string name="title_activity_handler">ShakeSaySend</string>
+    <string name="action_settings">Settings</string>
+    <string name="stop_service">stop_service</string>
+	<string name="extra_stopListen">stop_listening</string>
+
+	<!-- Saved preference strings -->
+	<string name="pref_isFirstTime">pref_isFirstTime</string>
+	<string name="pref_selectedOption">pref_selectedOption</string>
+	<string name="pref_ttsText">pref_ttsText</string>	
+    <string name="pref_email">pref_email</string>
+    <string name="pref_text_number">pref_text_number</string>
+    	
+	<!-- Prompt strings -->
+	<string name="speech_prompt">Wait for the tone, then speak</string>
+	<string name="stop_speech_prompt">Wait for the tone to continue recording</string>
+	<string name="select_text">Please select how you would prefer to receive your memos</string>
+	<string name="speak_now">Speak Now</string>	
+	<string name="wait">Wait</string>
+	<string name="speak_or_shake_again">Speak Now\n\n-Or-\n\nshake device again to send memo</string>
+	<string name="processing">Processing...</string>
+	
+	<!-- Button strings -->
+	<string name="btn_preferences">Preferences</string>
+	<string name="btn_clear_preferences">Clear Preferences</string>
+	<string name="btn_text">Text</string>
+	<string name="btn_email">Email</string>
+	<string name="btn_svc_start">Activate</string>
+	<string name="btn_svc_stop">Deactivate</string>
+	<string name="btn_stop_listening">Tap to stop listening</string>
+	
+	<string name="about">About</string>   
+    <string name="about_line1">CevaOne</string>
+    <string name="about_line2">support@cevaone.com</string>
+    <string name="about_line3">www.cevaone.com</string>    
+    <string name="version">v1.2</string>
+	
+
+</resources>

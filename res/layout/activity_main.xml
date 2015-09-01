@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="20dp">
+	    
+	<Button
+	    android:id="@+id/svc_start"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/btn_svc_start"
+	    android:onClick="svc_start"
+	    />
+	<Button
+	    android:id="@+id/svc_stop"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/btn_svc_stop"
+	    android:onClick="svc_stop"
+	    />	    
+	    
+	</LinearLayout>
+	
+	
+	
+	
+	<TextView  
+		
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:textSize="16sp" 
+	    android:gravity="center"
+		android:text="@string/select_text"/>
+
+	<LinearLayout 
+	    android:orientation="horizontal" 
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:paddingTop="20dp">
+		<Button
+		    android:id="@+id/email_btn"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/btn_email"
+		    android:onClick="select_email"
+		    
+		    />
+	 
+		<Button
+		    android:id="@+id/text_btn"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/btn_text"
+		    android:onClick="select_text"
+		    />
+	    
+	    
+	</LinearLayout>
+	
+	<LinearLayout	    
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="20dp"> 
+	    
+	<!--  <Button
+	    android:id="@+id/pref_btn"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/btn_preferences"
+	    android:onClick="pref_btn"
+	    />-->
+	<Button
+	    android:id="@+id/pref_del_btn"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/btn_clear_preferences"
+	    android:onClick="pref_del_btn"
+	    />	    
+	    
+	</LinearLayout>
+	
+
+	
+</LinearLayout>
